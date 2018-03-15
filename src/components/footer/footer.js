@@ -1,0 +1,12 @@
+import React from 'react';
+import './footer.css'
+
+
+export default function Footer(props) {
+    return (
+        <footer>
+            "This is the footer"
+        </footer>
+    );
+}
+
