@@ -1,3 +1,13 @@
 .portfolio {
     background-color: #d7d7d7;
+    text-align: center;
 } 
+
+.project-logo {
+    width: 150px;
+}
+
+.stegato {
+    background-color: #0f1626;
+    color: #f5f5f5
+}
