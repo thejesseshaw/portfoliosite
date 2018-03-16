@@ -3,3 +3,13 @@
     min-height: 200px;
     text-align: center;
 }
+
+span.aboutme-description {
+    display: inline-block;
+    margin-top:  10px;
+    text-align: left;
+}
+
+section.description {
+    padding: 20px;
+}
