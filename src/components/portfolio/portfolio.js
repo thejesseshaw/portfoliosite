@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-
+import { faCheckSquare } from '@fortawesome/fontawesome-free-solid'
 
 export default function Portfolio(props) {
     console.log(props.site)
@@ -12,9 +12,12 @@ export default function Portfolio(props) {
                 <section>
                 <img src={props.logo} alt="logo" className="project-logo"></img>
                 </section>
+                <section>
                 <span className="site-identifier">{props.description}</span>
+                </section>
                 <section className="technolgy">
                     {props.technologies}
+                    <FontAwesomeIcon icon={faCheckSquare} />
                 </section>
             </section>
         </section>
