@@ -1,10 +1,23 @@
 import React from 'react';
 import './portfolio.css'
+
+/*Font Awesome */
+import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faCheckSquare } from '@fortawesome/fontawesome-free-solid'
+import brands from '@fortawesome/fontawesome-free-brands'
+
+var htmlIcon = <FontAwesomeIcon icon={["fab","html5"]}/><FontAwesomeIcon icon={["fab","css3-alt"]}/><FontAwesomeIcon icon={["fab","js-square"]}/>
+var cssIcon = <FontAwesomeIcon icon={["fab","css3-alt"]}/>
+var jsIcon = <FontAwesomeIcon icon={["fab","js-square"]}/>
+var reactIcon = <FontAwesomeIcon icon={["fab","react"]}/>
+var nodeIcon = <FontAwesomeIcon icon={["fab","node-js"]}/>
 
 export default function Portfolio(props) {
-    console.log(props.site)
+    let technologies
+    console.log(props.technologies)
+    if (props.projectname == "mumu") {
+        technologies = htmlIcon
+    }
     return (
         <section className={`portfolio ${props.projectname}`}>
             <section className="portfolio-section">
@@ -16,8 +29,7 @@ export default function Portfolio(props) {
                 <span className="site-identifier">{props.description}</span>
                 </section>
                 <section className="technolgy">
-                    {props.technologies}
-                    <FontAwesomeIcon icon={faCheckSquare} />
+                    {technologies}
                 </section>
             </section>
         </section>
