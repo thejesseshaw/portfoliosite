@@ -2,21 +2,23 @@ import React from 'react';
 import './portfolio.css'
 
 /*Font Awesome */
-import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import brands from '@fortawesome/fontawesome-free-brands'
 
-var htmlIcon = <FontAwesomeIcon icon={["fab","html5"]}/><FontAwesomeIcon icon={["fab","css3-alt"]}/><FontAwesomeIcon icon={["fab","js-square"]}/>
-var cssIcon = <FontAwesomeIcon icon={["fab","css3-alt"]}/>
-var jsIcon = <FontAwesomeIcon icon={["fab","js-square"]}/>
-var reactIcon = <FontAwesomeIcon icon={["fab","react"]}/>
-var nodeIcon = <FontAwesomeIcon icon={["fab","node-js"]}/>
+var stegatoTech = <section><FontAwesomeIcon icon={["fab","html5"]}/><FontAwesomeIcon icon={["fab","css3-alt"]}/><FontAwesomeIcon icon={["fab","js-square"]}/><FontAwesomeIcon icon={["fab","react"]}/><FontAwesomeIcon icon={["fab","node-js"]}/></section>
+var squaresTech = <section><FontAwesomeIcon icon={["fab","html5"]}/><FontAwesomeIcon icon={["fab","css3-alt"]}/><FontAwesomeIcon icon={["fab","js-square"]}/><FontAwesomeIcon icon={["fab","react"]}/><FontAwesomeIcon icon={["fab","node-js"]}/></section>
+var mumuTech = <section><FontAwesomeIcon icon={["fab","html5"]}/><FontAwesomeIcon icon={["fab","css3-alt"]}/><FontAwesomeIcon icon={["fab","js-square"]}/><FontAwesomeIcon icon={["fab","react"]}/><FontAwesomeIcon icon={["fab","node-js"]}/></section>
 
 export default function Portfolio(props) {
     let technologies
     console.log(props.technologies)
-    if (props.projectname == "mumu") {
-        technologies = htmlIcon
+    if (props.projectname === "stegato") {
+        technologies = stegatoTech
+    }
+    else if (props.projectname === "mumu") {
+        technologies = mumuTech
+    }
+    else if (props.projectname === "squares") {
+        technologies = squaresTech
     }
     return (
         <section className={`portfolio ${props.projectname}`}>
@@ -28,9 +30,7 @@ export default function Portfolio(props) {
                 <section>
                 <span className="site-identifier">{props.description}</span>
                 </section>
-                <section className="technolgy">
-                    {technologies}
-                </section>
+                {technologies}
             </section>
         </section>
     );
