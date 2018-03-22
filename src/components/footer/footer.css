@@ -2,3 +2,13 @@ footer {
     background-color: black;
     color: white;
 }
+
+ul {
+    list-style-type: none;
+    display: -webkit-inline-box;
+    width: 100%;
+}
+
+li {
+    margin: 0px 20px;
+}
