@@ -1,10 +1,12 @@
 header {
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    background-color: #181818;
-    z-index: 9990;
+header a {
+    color: white;
+}
+
+a.jumper {
+    text-decoration: none;
 }

@@ -6,10 +6,10 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 
 export default function Footer(props) {
     return (
-        <footer>
+        <footer className="footer">
             <h3>Say Hi</h3>
+            <section className="footer-nav">
             <ul>
-                <li><FontAwesomeIcon icon={["fab","linkedin-in"]}/></li>
                 <li>Email</li>
                 <li>GitHub</li>
                 <li>Instagram</li>
@@ -17,6 +17,7 @@ export default function Footer(props) {
                 <li>LinkedIn</li>
                 <li>Phone</li>
             </ul>
+            </section>
         </footer>
     );
 }

@@ -1,6 +1,8 @@
 footer {
+    width: 100%;
     background-color: black;
     color: white;
+    padding: 20px 0px;
 }
 
 ul {
@@ -10,5 +12,17 @@ ul {
 }
 
 li {
-    margin: 0px 20px;
+    margin: 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        background-color: pink;
+    }
+    .footer-nav {
+        text-align: center;
+    }
+    #root > main > footer > section > ul {
+        display: initial;
+    }
 }

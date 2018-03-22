@@ -12,7 +12,7 @@ export default function Portfolio(props) {
     let technologies
     console.log(props.technologies)
     if (props.projectname === "stegato") {
-        technologies = stegatoTech
+        technologies = "stegatoTech"
     }
     else if (props.projectname === "mumu") {
         technologies = mumuTech
@@ -30,7 +30,9 @@ export default function Portfolio(props) {
                 <section>
                 <span className="site-identifier">{props.description}</span>
                 </section>
-                {technologies}
+                <section className="technologies">
+                    {technologies}
+                </section>
             </section>
         </section>
     );
