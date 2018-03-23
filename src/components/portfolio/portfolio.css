@@ -33,3 +33,7 @@ section.portfolio-section {
 section.technologies {
     margin: 20px 0px;
 }
+
+img.project-screenshot {
+    width: 100%;
+}

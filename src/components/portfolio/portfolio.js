@@ -24,7 +24,10 @@ export default function Portfolio(props) {
         <section className={`portfolio ${props.projectname}`}>
             <section className="portfolio-section">
                 <h1>{props.projectname}</h1>
-                <section>
+                <section className="screenshot">
+                <img src={props.screenshot} alt="screenshot" className="project-screenshot"></img>
+                </section>
+                <section className="logo-section">
                 <img src={props.logo} alt="logo" className="project-logo"></img>
                 </section>
                 <section>
