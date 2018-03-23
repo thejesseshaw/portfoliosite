@@ -12,3 +12,11 @@ span.aboutme-description {
 section.description {
     padding: 20px;
 }
+
+section.image {
+    padding: 20px 0px 0px 0px;
+}
+
+.my-picture {
+    width: 200px;
+}
