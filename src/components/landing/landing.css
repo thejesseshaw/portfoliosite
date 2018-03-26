@@ -11,8 +11,15 @@ span.greeting {
 }
 
 section.greeting-section {
-    width: 80%;
-    margin-top: 30%;
     font-size: 32px;
+    margin-top: 15%;
     position:  absolute;
+}
+
+section.landing {
+    min-height: 200px;
+    background-image: url('../../images/helloquence-61189-unsplash.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }

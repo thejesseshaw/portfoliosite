@@ -10,7 +10,6 @@ export default function Landing(props) {
                 <span className="greeting">"Hi. I'm Jesse. I'm a fullstack developer"</span>
             </section>
             <section className="hero-image">
-                <img src={splashImage} alt="splashImage" className="splashImage"></img>
             </section>
         </section>
     );
