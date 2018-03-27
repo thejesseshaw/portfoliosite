@@ -37,3 +37,12 @@ section.technologies {
 img.project-screenshot {
     width: 100%;
 }
+
+.linkout {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.linkout a {
+    color: white;
+}

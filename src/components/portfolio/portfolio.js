@@ -10,7 +10,7 @@ var mumuTech = <section><FontAwesomeIcon icon={["fab","html5"]}/><FontAwesomeIco
 
 export default function Portfolio(props) {
     let technologies
-    console.log(props.technologies)
+    console.log(props)
     if (props.projectname === "stegato") {
         technologies = "stegatoTech"
     }
@@ -35,6 +35,10 @@ export default function Portfolio(props) {
                 </section>
                 <section className="technologies">
                     {technologies}
+                </section>
+                <section>
+                    <span className="linkout github"><a href="/">Repo</a></span>
+                    <span className="linkout demo"><a href={props.applink} target="_blank">Demo</a></span>
                 </section>
             </section>
         </section>
