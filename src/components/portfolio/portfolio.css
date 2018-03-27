@@ -27,8 +27,16 @@ section.portfolio-section {
     color: #f5f5f5
 }
 
+#portfolio > section.portfolio.stegato > section > section:nth-child(6) > span.linkout > a {
+    color: #f5f5f5;
+}
+
 .squares {
     background-color: #062f4f!important;
+    color: #D4DCE3;
+}
+
+#portfolio > section.portfolio.squares > section > section:nth-child(6) > span.linkout > a {
     color: #D4DCE3;
 }
 
@@ -37,8 +45,13 @@ section.portfolio-section {
     color: #D4DCE3;
 }
 
+#portfolio > section.portfolio.mumu > section > section:nth-child(6) > span.linkout > a {
+    color: #D4DCE3;
+}
+
 section.technologies {
     margin: 20px 0px;
+    font-size: 32px;
 }
 
 img.project-screenshot {
@@ -54,8 +67,4 @@ img.project-screenshot:hover {
 .linkout {
     margin: 0px 10px;
     text-decoration: none;
-}
-
-.linkout a {
-    color: white;
 }

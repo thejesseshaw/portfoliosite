@@ -1,18 +1,16 @@
 import React from 'react';
 import './portfolio.css'
 
-/*Font Awesome */
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 
-var stegatoTech = <section><FontAwesomeIcon icon={["fab","html5"]}/><FontAwesomeIcon icon={["fab","css3-alt"]}/><FontAwesomeIcon icon={["fab","js-square"]}/><FontAwesomeIcon icon={["fab","react"]}/><FontAwesomeIcon icon={["fab","node-js"]}/></section>
-var squaresTech = <section><FontAwesomeIcon icon={["fab","html5"]}/><FontAwesomeIcon icon={["fab","css3-alt"]}/><FontAwesomeIcon icon={["fab","js-square"]}/><FontAwesomeIcon icon={["fab","react"]}/><FontAwesomeIcon icon={["fab","node-js"]}/></section>
-var mumuTech = <section><FontAwesomeIcon icon={["fab","html5"]}/><FontAwesomeIcon icon={["fab","css3-alt"]}/><FontAwesomeIcon icon={["fab","js-square"]}/><FontAwesomeIcon icon={["fab","react"]}/><FontAwesomeIcon icon={["fab","node-js"]}/></section>
+var stegatoTech = <section><i className="fa fa-html5"></i><i className="fa fa-css3"></i><i className="fa fa-spotify"></i></section>
+var squaresTech
+var mumuTech
 
 export default function Portfolio(props) {
     let technologies
     console.log(props)
     if (props.projectname === "stegato") {
-        technologies = "stegatoTech"
+        technologies = stegatoTech
     }
     else if (props.projectname === "mumu") {
         technologies = mumuTech
