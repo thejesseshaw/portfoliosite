@@ -1,5 +1,5 @@
 .about-me {
-    background-color: #b6b6b6;
+    background-color: #06304e;
     text-align: center;
 }
 
@@ -11,6 +11,7 @@ span.aboutme-description {
 
 section.description {
     padding: 20px;
+    color: #D4DCE3;
 }
 
 section.image {
@@ -19,4 +20,11 @@ section.image {
 
 .my-picture {
     width: 200px;
+    -webkit-transition: width 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.2s;
 }
+
+.my-picture:hover {
+    width: 220px;
+}
+

@@ -8,12 +8,14 @@
 
 span.greeting {
     background-color: green;
+    widows: 50%;
 }
 
 section.greeting-section {
     font-size: 32px;
     margin-top: 10%;
     position:  absolute;
+    width: 80%;
 }
 
 section.landing {

@@ -37,7 +37,7 @@ export default function Portfolio(props) {
                     {technologies}
                 </section>
                 <section>
-                    <span className="linkout github"><a href="/">Repo</a></span>
+                    <span className="linkout github"><a href={props.repolink} target="_blank">Repo</a></span>
                     <span className="linkout demo"><a href={props.applink} target="_blank">Demo</a></span>
                 </section>
             </section>

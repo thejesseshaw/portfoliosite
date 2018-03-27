@@ -5,6 +5,13 @@
 
 .project-logo {
     width: 150px;
+    margin: 10px 0px;
+    -webkit-transition: width 0.2s, height 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.2s, height 0.4s;
+}
+
+.project-logo:hover {
+    width: 180px;
 }
 
 section.portfolio-section {
@@ -36,6 +43,12 @@ section.technologies {
 
 img.project-screenshot {
     width: 100%;
+    -webkit-transition: width 0.2s, height 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.2s, height 0.4s;
+}
+
+img.project-screenshot:hover {
+    width: 98%;
 }
 
 .linkout {
