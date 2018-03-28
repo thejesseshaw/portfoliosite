@@ -10,12 +10,12 @@ export default function Footer(props) {
             <h3>Say Hi</h3>
             <section className="footer-nav">
             <ul>
-                <li>Email</li>
-                <li>GitHub</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>LinkedIn</li>
-                <li>Phone</li>
+                <li><i class="fas fa-envelope-open" alt="Email me!"></i></li>
+                <li><i class="fab fa-github-square"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-twitter-square"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+                <li><i class="fas fa-phone"></i></li>
             </ul>
             </section>
         </footer>

@@ -2,9 +2,9 @@ import React from 'react';
 import './portfolio.css'
 
 
-var stegatoTech = <section><i className="fa fa-html5"></i><i className="fa fa-css3"></i><i className="fa fa-spotify"></i></section>
-var squaresTech
-var mumuTech
+var stegatoTech = <section className="techfonts"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i><i class="fab fa-node"></i><i class="fab fa-react"></i></section>
+var squaresTech = <section className="techfonts"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i><i class="fab fa-node"></i></section>
+var mumuTech = <section className="techfonts"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i></section>
 
 export default function Portfolio(props) {
     let technologies

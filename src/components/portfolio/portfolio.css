@@ -68,3 +68,10 @@ img.project-screenshot:hover {
     margin: 0px 10px;
     text-decoration: none;
 }
+
+
+.svg-inline--fa {
+    margin: 0px 5px;
+    font-size: 50px;
+}
+
