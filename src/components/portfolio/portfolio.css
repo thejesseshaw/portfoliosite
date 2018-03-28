@@ -75,3 +75,10 @@ img.project-screenshot:hover {
     font-size: 50px;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+    span.site-identifier {
+        font-size: 20px;
+    }
+}

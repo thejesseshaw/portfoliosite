@@ -7,8 +7,8 @@
 }
 
 span.greeting {
-    background-color: green;
-    widows: 50%;
+    background-color: #0f1626;
+    color: #D4DCE3;
 }
 
 section.greeting-section {
@@ -20,7 +20,7 @@ section.greeting-section {
 
 section.landing {
     min-height: 200px;
-    background-image: url('../../images/helloquence-61189-unsplash.jpg');
+    background-image: url('../../images/heroimage.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;

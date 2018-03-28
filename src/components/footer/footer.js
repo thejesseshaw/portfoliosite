@@ -7,7 +7,7 @@ import './footer.css'
 export default function Footer(props) {
     return (
         <footer className="footer">
-            <h3>Say Hi</h3>
+            <h3 className="say-hi">Say Hi</h3>
             <section className="footer-nav">
             <ul>
                 <li><i class="fas fa-envelope-open" alt="Email me!"></i></li>
