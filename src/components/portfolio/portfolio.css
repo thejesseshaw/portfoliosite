@@ -36,6 +36,7 @@ section.portfolio-section > h1 {
     color: #f5f5f5;
 }
 
+
 .squares {
     background-color: #062f4f!important;
     color: #D4DCE3;
@@ -52,6 +53,14 @@ section.portfolio-section > h1 {
 
 #portfolio > section.portfolio.mumu > section > section:nth-child(6) > span.linkout > a {
     color: #D4DCE3;
+}
+
+#portfolio > section.portfolio.squares > section > section.technologies > section > .svg-inline--fa:hover {
+    color: #813772;
+}
+
+#portfolio > section.portfolio.mumu > section > section.technologies > section > .svg-inline--fa:hover {
+    color: #FC4A1A;
 }
 
 section.technologies {
@@ -78,6 +87,10 @@ img.project-screenshot:hover {
 .svg-inline--fa {
     margin: 0px 5px;
     font-size: 50px;
+}
+
+.svg-inline--fa:hover {
+    color: #ff533d;
 }
 
 

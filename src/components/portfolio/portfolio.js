@@ -2,13 +2,12 @@ import React from 'react';
 import './portfolio.css'
 
 
-var stegatoTech = <section className="techfonts"><i class="fab fa-html5" title="HTML"></i><i class="fab fa-css3-alt" title="CSS"></i><i class="fab fa-js-square" title="Javascript"></i><i class="fab fa-node" title="Node JS"></i><i class="fab fa-react" title="React JS"></i></section>
-var squaresTech = <section className="techfonts"><i class="fab fa-html5" title="HTML"></i><i class="fab fa-css3-alt" title="CSS"></i><i class="fab fa-js-square" title="Javascript"></i><i class="fab fa-node" title="Node JS"></i></section>
-var mumuTech = <section className="techfonts"><i class="fab fa-html5" title="HTML"></i><i class="fab fa-css3-alt" title="CSS"></i><i class="fab fa-js-square" title="Javascript"></i></section>
+var stegatoTech = <section className="techfonts"><i className="fab fa-html5" title="HTML"></i><i className="fab fa-css3-alt" title="CSS"></i><i className="fab fa-js-square" title="Javascript"></i><i className="fab fa-node" title="Node JS"></i><i className="fab fa-react" title="React JS"></i></section>
+var squaresTech = <section className="techfonts"><i className="fab fa-html5" title="HTML"></i><i className="fab fa-css3-alt" title="CSS"></i><i className="fab fa-js-square" title="Javascript"></i><i className="fab fa-node" title="Node JS"></i></section>
+var mumuTech = <section className="techfonts"><i className="fab fa-html5" title="HTML"></i><i className="fab fa-css3-alt" title="CSS"></i><i className="fab fa-js-square" title="Javascript"></i></section>
 
 export default function Portfolio(props) {
     let technologies
-    console.log(props)
     if (props.projectname === "stegato") {
         technologies = stegatoTech
     }
