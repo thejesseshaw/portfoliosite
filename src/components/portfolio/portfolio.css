@@ -99,4 +99,16 @@ img.project-screenshot:hover {
     span.site-identifier {
         font-size: 20px;
     }
+    #portfolio > section.portfolio.stegato > section > section:nth-child(6) > span.linkout > a {
+        color: #f5f5f5;
+        font-size: 20px;
+    }
+    #portfolio > section.portfolio.squares > section > section:nth-child(6) > span.linkout > a {
+        color: #f5f5f5;
+        font-size: 20px;
+    }
+    #portfolio > section.portfolio.mumu > section > section:nth-child(6) > span.linkout > a {
+        color: #f5f5f5;
+        font-size: 20px;
+    }
 }
