@@ -2,9 +2,9 @@ import React from 'react';
 import './portfolio.css'
 
 
-var stegatoTech = <section className="techfonts"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i><i class="fab fa-node"></i><i class="fab fa-react"></i></section>
-var squaresTech = <section className="techfonts"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i><i class="fab fa-node"></i></section>
-var mumuTech = <section className="techfonts"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i></section>
+var stegatoTech = <section className="techfonts"><i class="fab fa-html5" title="HTML"></i><i class="fab fa-css3-alt" title="CSS"></i><i class="fab fa-js-square" title="Javascript"></i><i class="fab fa-node" title="Node JS"></i><i class="fab fa-react" title="React JS"></i></section>
+var squaresTech = <section className="techfonts"><i class="fab fa-html5" title="HTML"></i><i class="fab fa-css3-alt" title="CSS"></i><i class="fab fa-js-square" title="Javascript"></i><i class="fab fa-node" title="Node JS"></i></section>
+var mumuTech = <section className="techfonts"><i class="fab fa-html5" title="HTML"></i><i class="fab fa-css3-alt" title="CSS"></i><i class="fab fa-js-square" title="Javascript"></i></section>
 
 export default function Portfolio(props) {
     let technologies
