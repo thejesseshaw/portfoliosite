@@ -3,6 +3,8 @@
 #netlify
 .netlify
 
+/images/heroimage.psd
+
 # dependencies
 /node_modules
 
