@@ -6,7 +6,7 @@ footer {
 }
 
 .say-hi:hover {
-    animation: shake 0.5s;
+    animation: shake 0.2s;
     color: #ff533d;
 }
 
