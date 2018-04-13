@@ -9,15 +9,17 @@ footer {
     color: #ff533d;
 }
 
+section.footer-nav {
+    text-align: center;
+}
 
 ul {
     list-style-type: none;
-    display: -webkit-inline-box;
-    width: 100%;
 }
 
 li {
     margin: 10px 10px;
+    display: -webkit-inline-box;
 }
 footer > section > ul > li > a {
     color: #f5f5f5;
@@ -53,4 +55,8 @@ hr {
     #root > main > footer > section > ul {
         display: initial;
     }
+    #root > main > footer > section > ul > li {
+        display: block;
+    }
+
 }

@@ -4,8 +4,17 @@ header {
     padding: 2px;
 }
 
+section.name {
+    margin-left: 20px;
+}
+
 .name-text {
     text-transform: uppercase;
+    font-family: 'Arvo', serif;
+}
+
+a.name-text-link {
+    text-decoration: none;
 }
 
 header a {

@@ -7,7 +7,7 @@ export default function Heading(props) {
         <header>
         <div className="container">
             <section className="name">
-                <a href="/"><h1 className="name-text" >Jesse Shaw</h1></a>
+                <a href="/" className="name-text-link"><h1 className="name-text" >Jesse Shaw</h1></a>
             </section>
             <nav>
             <ul className="links">
