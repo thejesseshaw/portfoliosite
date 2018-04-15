@@ -27,7 +27,7 @@ export default function Portfolio(props) {
                 <section className="logo-section">
                 <img src={props.logo} alt="logo" className="project-logo"></img>
                 </section>
-                <section>
+                <section className="project-description">
                 <span className="site-identifier">{props.description}</span>
                 </section>
                 <section className="technologies">
