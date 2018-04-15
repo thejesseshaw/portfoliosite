@@ -8,14 +8,17 @@ main {
 }
 
 .portfolio-header {
-    background-color: #ff533d;
+    background-color: #0f1626;
     color: white;
     text-align: center;
     padding: 20px;
+    border-bottom: 6px solid #ff533d;
 }
 
 .portfolio-header-text {
     margin: 0px;
+    font-size: 32px;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 900px) {
