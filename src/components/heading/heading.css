@@ -38,7 +38,6 @@ header a:hover {
         text-align: center;
     }
     nav {
-        /* margin-bottom: 0px; */
-        padding-bottom: 5px;
+        text-align: center;
     }
 }
