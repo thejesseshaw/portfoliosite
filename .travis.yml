@@ -9,8 +9,8 @@ env:
   - CI=true
 
 before_deploy:
-  - npm run build
   - npm install netlify-cli -g
+  - npm run build
 
 deploy:
   provider: script
