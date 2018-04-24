@@ -4,7 +4,7 @@ import Landing from './components/landing/landing'
 import Whoiam from './components/whoiam/whoiam'
 import Footer from './components/footer/footer'
 import Portfolio from './components/portfolio/portfolio'
-import './app.css'
+import './App.css'
 
 /* Portfolio Items*/
 import squaresLogo from './images/Logo3.jpg'

@@ -28,31 +28,34 @@ section.portfolio-section > h1 {
 }
 
 .stegato {
-    background-color: #0f1626;
-    color: #f5f5f5
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 6px solid #000000;
 }
 
 #portfolio > section.portfolio.stegato > section > section:nth-child(6) > span.linkout > a {
-    color: #f5f5f5;
+    color: #000000;
 }
 
 
 .squares {
-    background-color: #062f4f!important;
-    color: #D4DCE3;
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 6px solid #000000;
 }
 
 #portfolio > section.portfolio.squares > section > section:nth-child(6) > span.linkout > a {
-    color: #D4DCE3;
+    color: #000000;
 }
 
 .mumu {
-    background-color: #4ABDAC;
-    color: #D4DCE3;
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 6px solid #000000;
 }
 
 #portfolio > section.portfolio.mumu > section > section:nth-child(6) > span.linkout > a {
-    color: #D4DCE3;
+    color: #000000;
 }
 
 #portfolio > section.portfolio.squares > section > section.technologies > section > .svg-inline--fa:hover {
