@@ -25,6 +25,7 @@ section.portfolio-section > h1 {
 
 #portfolio > section.portfolio > section > h2 {
     text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 .stegato {

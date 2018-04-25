@@ -10,7 +10,7 @@ section.name {
 
 .name-text {
     text-transform: uppercase;
-    font-family: 'Arvo', serif;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 a.name-text-link {
@@ -23,6 +23,7 @@ header a {
 
 a.jumper {
     text-decoration: none;
+    font-family: 'Alegreya', sans-serif;
 }
 
 header a:hover {

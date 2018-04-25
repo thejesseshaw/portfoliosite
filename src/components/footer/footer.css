@@ -6,6 +6,10 @@ footer {
     border-top: 6px solid #ff533d;
 }
 
+#footer > h3 {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
 .say-hi:hover {
     color: #ff533d;
 }

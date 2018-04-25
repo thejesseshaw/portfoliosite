@@ -19,6 +19,7 @@ main {
     margin: 0px;
     font-size: 32px;
     text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 @media only screen and (max-width: 900px) {
