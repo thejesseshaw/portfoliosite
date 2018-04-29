@@ -104,15 +104,15 @@ img.project-screenshot:hover {
         font-size: 20px;
     }
     #portfolio > section.portfolio.stegato > section > section:nth-child(6) > span.linkout > a {
-        color: #f5f5f5;
+        color: #000000;
         font-size: 20px;
     }
     #portfolio > section.portfolio.squares > section > section:nth-child(6) > span.linkout > a {
-        color: #f5f5f5;
+        color: #000000;
         font-size: 20px;
     }
     #portfolio > section.portfolio.mumu > section > section:nth-child(6) > span.linkout > a {
-        color: #f5f5f5;
+        color: #000000;
         font-size: 20px;
     }
 }
