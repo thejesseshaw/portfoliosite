@@ -11,7 +11,7 @@ export default function Footer(props) {
             <hr className="light"></hr>
             <section className="footer-nav">
             <ul>
-                <li><a href="mailto:jesseshawcodes@gmail.com" target="_blank" rel="noopener noreferrer" title="Send me an email at jdshaw1987@gmail.com"><i className="fas fa-envelope-open" alt="Email me!"></i></a></li>
+                <li><a href="mailto:jesseshawcodes@gmail.com" target="_blank" rel="noopener noreferrer" title="Send me an email at JesseShawCodes@gmail.com"><i className="fas fa-envelope-open" alt="Email me!"></i></a></li>
                 <li><a href="https://github.com/jesseshawcodes" target="_blank" rel="noopener noreferrer" title="Connect with me on GitHub"><i className="fab fa-github-square"></i></a></li>
                 <li><a href="https://www.instagram.com/jesseshawcodes/" target="_blank" rel="noopener noreferrer" title="Follow me on Instagram"><i className="fab fa-instagram"></i></a></li>
                 <li><a href="https://twitter.com/JesseShawCodes" target="_blank" rel="noopener noreferrer" title="Say Hi on Twitter!"><i className="fab fa-twitter-square"></i></a></li>
