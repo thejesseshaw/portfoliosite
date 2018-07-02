@@ -7,7 +7,7 @@ export default function Landing(props) {
     return (
         <section className="landing">
             <section className="greeting-section">
-                <span className="greeting">I'm Jesse. I like to make things</span>
+                <span className="greeting">I'm Jesse. I'm a Full Stack Web Developer</span>
             </section>
             <section className="hero-image">
             </section>
