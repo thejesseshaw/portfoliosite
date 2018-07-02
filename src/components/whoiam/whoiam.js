@@ -1,6 +1,6 @@
 import React from 'react';
 import './whoiam.css'
-import myPicture from '../../images/Image-1.png'
+import myPicture from '../../images/Shaw-6014_crop.jpg'
 
 
 export default function Whoiam(props) {
