@@ -8,6 +8,7 @@ footer {
 
 #footer > h3 {
     font-family: 'Alegreya Sans', sans-serif;
+    padding: 0px 20px;
 }
 
 .say-hi:hover {
