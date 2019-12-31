@@ -6,6 +6,7 @@ import './footer.css'
 
 export default function Footer(props) {
     return (
+        // Footer Component
         <footer className="footer" id="footer">
             <h3 className="say-hi">Say Hi</h3>
             <hr className="light"></hr>
