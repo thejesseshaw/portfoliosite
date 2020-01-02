@@ -37,7 +37,7 @@ export default function App(props) {
                     logo={smu_logo}
                     projectname="south-moon-under"
                     sitename="South Moon Under" 
-                    description="Since October 2018, I have been working as the in house web developer at South Moon Under in Annapolis, MD." 
+                    description="Since October 2018, I have been working as the in house web developer at South Moon Under in Annapolis, MD. My roles and responsibilities on the team include, but are not limited to the following:" 
                     technologies="html" 
                     applink="http://www.southmoonunder.com/" 
                 />

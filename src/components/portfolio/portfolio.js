@@ -58,7 +58,7 @@ export default function Portfolio(props) {
         technologies = smuTech
         jobDetails = 
             <ul>
-                <li>Maintained legacy code and assets and troubleshoot bugs within a complex, global code base.</li>
+                <li>Maintanance of legacy code and assets and troubleshoot bugs within a complex, global code base.</li>
                 <li>Built, managed, and maintained front end site features and integrations using HTML, CSS, Javascript, and jQuery coding best practices within Demandware Business manager.</li>
                 <li>Provided consultation to creative/design team with guidance on UX and Mobile design best practices to implement within site content updates.</li>
                 <li>Developed cross-browser, cross-device compatible pages adhering to industry best practices.</li>

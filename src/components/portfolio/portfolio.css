@@ -3,6 +3,10 @@
     text-align: center;
 } 
 
+.projects, .site-identifier {
+    text-align: left;
+}
+
 .project-logo {
     width: 150px;
     margin: 10px 0px;
@@ -26,6 +30,14 @@ section.portfolio-section > h1 {
 #portfolio > section.portfolio > section > h2 {
     text-transform: uppercase;
     font-family: 'Alegreya Sans', sans-serif;
+}
+
+/*South Moon Under*/
+.job-details > ul > li {
+    margin: 2px;
+    list-style: initial;
+    text-align: left;
+    display: list-item;
 }
 
 .stegato, .south-moon-under, .yoga-by-deborah {
