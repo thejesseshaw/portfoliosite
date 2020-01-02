@@ -79,6 +79,14 @@ section.portfolio-section > h1 {
     color: #FC4A1A;
 }
 
+#portfolio > section.portfolio.south-moon-under > section > section.technologies > section > .svg-inline--fa:hover {
+    color: #64adb7;
+}
+
+#portfolio > section.portfolio.yoga-by-deborah > section > section.technologies > section > .svg-inline--fa:hover {
+    color: #8b7361;
+}
+
 section.technologies {
     margin: 20px 0px;
     font-size: 32px;
