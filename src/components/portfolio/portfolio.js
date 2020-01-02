@@ -57,7 +57,7 @@ export default function Portfolio(props) {
     else if (props.projectname === "south-moon-under") {
         technologies = smuTech
         jobDetails = 
-            <section>
+            <ul>
                 <li>Maintained legacy code and assets and troubleshoot bugs within a complex, global code base.</li>
                 <li>Built, managed, and maintained front end site features and integrations using HTML, CSS, Javascript, and jQuery coding best practices within Demandware Business manager.</li>
                 <li>Provided consultation to creative/design team with guidance on UX and Mobile design best practices to implement within site content updates.</li>
@@ -66,7 +66,7 @@ export default function Portfolio(props) {
                 <li>Developed A/B tests using Monetate platform. Built and tested features that have led to a 10 - 15% increase in Conversion Rate and a 15 - 20% increase in revenue per session.</li>
                 <li>Implemented and researched Search Engine Optimization (SEO) opportunities for the brand. These opportunities included setting up structured data, tagging updates, and updating template files to serve needs of E-Commerce team to add appropriate keywords on the site within the CMS.</li>
                 <li>Updated and maintained site integrations with Monetate, Bronto, Channel Advisor, Facebook, Google Analytics.</li>
-            </section>
+            </ul>
     }
     else if (props.projectname === "yoga-by-deborah") {
         technologies = yogaDebTech
