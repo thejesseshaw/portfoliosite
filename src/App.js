@@ -38,8 +38,8 @@ export default function App(props) {
                     projectname="south-moon-under"
                     sitename="South Moon Under" 
                     description="Since October 2018, I have been working as the in house web developer at South Moon Under in Annapolis, MD. My roles and responsibilities on the team include, but are not limited to the following:" 
-                    technologies="html" 
-                    applink="http://www.southmoonunder.com/" 
+                    technologies="html"
+                    applink="https://www.southmoonunder.com/"
                 />
                 <Portfolio 
                     site="2" 
