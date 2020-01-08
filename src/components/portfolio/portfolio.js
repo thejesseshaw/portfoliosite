@@ -1,45 +1,50 @@
 import React from 'react';
 import './portfolio.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSalesforce, faHtml5, faCss3, faJs, faBitbucket, faWordpress, faPhp } from '@fortawesome/free-brands-svg-icons';
+import { faSalesforce, faHtml5, faCss3, faJs, faBitbucket, faWordpress, faPhp, faNodeJs, faNode, faNpm, faReact } from '@fortawesome/free-brands-svg-icons';
 
 
 var stegatoTech = 
 <section className="techfonts">
-    <FontAwesomeIcon icon={faHtml5} />
-    <i className="fab fa-css3-alt" title="CSS"></i>
-    <i className="fab fa-js-square" title="Javascript"></i>
-    <i className="fab fa-node" title="Node JS"></i>
-    <i className="fab fa-react" title="React JS"></i>
+    <FontAwesomeIcon icon={faHtml5} title="HTML"/>
+    <FontAwesomeIcon icon={faCss3} title="CSS"/>
+    <FontAwesomeIcon icon={faJs} title="Javascript"/>
+    <FontAwesomeIcon icon={faNodeJs} title="Node JS"/>
+    <FontAwesomeIcon icon={faNode} title="Node"/>
+    <FontAwesomeIcon icon={faNpm} title="Node Package Manager"/>
+    <FontAwesomeIcon icon={faReact} title="React"/>
     </section>
 var squaresTech = 
 <section className="techfonts">
     <FontAwesomeIcon icon={faHtml5} />
-    <i className="fab fa-css3-alt" title="CSS"></i>
-    <i className="fab fa-js-square" title="Javascript"></i>
-    <i className="fab fa-node" title="Node JS"></i>
+    <FontAwesomeIcon icon={faCss3} title="CSS"/>
+    <FontAwesomeIcon icon={faJs} title="Javascript"/>
+    <FontAwesomeIcon icon={faNodeJs} title="Node JS"/>
+    <FontAwesomeIcon icon={faNode} title="Node"/>
+    <FontAwesomeIcon icon={faNpm} title="Node Package Manager"/>
+
 </section>
 var mumuTech = 
 <section className="techfonts">
-    <FontAwesomeIcon icon={faHtml5} />
-    <i className="fab fa-css3-alt" title="CSS"></i>
-    <i className="fab fa-js-square" title="Javascript"></i>
+    <FontAwesomeIcon icon={faHtml5} title="HTML"/>
+    <FontAwesomeIcon icon={faCss3} title="CSS"/>
+    <FontAwesomeIcon icon={faJs} title="Javascript"/>
 </section>
 var smuTech = 
 <section className="techfonts">
-    <FontAwesomeIcon icon={faSalesforce} />
-    <FontAwesomeIcon icon={faHtml5} />
-    <FontAwesomeIcon icon={faCss3} />
-    <FontAwesomeIcon icon={faJs} />
-    <FontAwesomeIcon icon={faBitbucket} />
+    <FontAwesomeIcon icon={faSalesforce} title="Salesforce Commerce Cloud"/>
+    <FontAwesomeIcon icon={faHtml5} title="HTML5"/>
+    <FontAwesomeIcon icon={faCss3} title="CSS"/>
+    <FontAwesomeIcon icon={faJs} title="Javascript"/>
+    <FontAwesomeIcon icon={faBitbucket} title="Bitbuck"/>
     </section>
 var yogaDebTech = 
 <section className="techfonts">
-    <FontAwesomeIcon icon={faHtml5} />
-    <FontAwesomeIcon icon={faCss3} />
-    <FontAwesomeIcon icon={faJs} />
-    <FontAwesomeIcon icon={faWordpress} />
-    <FontAwesomeIcon icon={faPhp} />
+    <FontAwesomeIcon icon={faHtml5} title="HTML"/>
+    <FontAwesomeIcon icon={faCss3} title="CSS"/>
+    <FontAwesomeIcon icon={faJs} title="Javascript"/>
+    <FontAwesomeIcon icon={faWordpress} title="Wordpress"/>
+    <FontAwesomeIcon icon={faPhp} title="PHP"/>
 </section>
 
 export default function Portfolio(props) {

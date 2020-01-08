@@ -37,7 +37,7 @@ export default function App(props) {
                     logo={smu_logo}
                     projectname="south-moon-under"
                     sitename="South Moon Under" 
-                    description="Since October 2018, I have been working as the in house web developer at South Moon Under in Annapolis, MD. My roles and responsibilities on the team include, but are not limited to the following:" 
+                    description="Since October 2018, I have been working as the in house web developer at South Moon Under in Annapolis, MD. As the web developer, I am a member of an Ecom/Marketing team that includes very talented designers, SEO Specialists, and digital strategists who work to make the site what it is. My roles and responsibilities on the team include, but are not limited to the following:" 
                     technologies="html"
                     applink="https://www.southmoonunder.com/"
                 />
@@ -57,7 +57,7 @@ export default function App(props) {
                     logo={stegatoLogo} 
                     projectname="stegato" 
                     sitename="Stegato"
-                    description="My inspiration for Stegato started from IMDB's top 250. I created a project that users can rate their favorite (and least favorite) albums and those ratings across the application are collected in the Stegato leaderboard. Features that I am currently working on to add to this application include Facebook login and a leaderboard that updates in real-time using websockets." 
+                    description="My inspiration for Stegato started from IMDB's top 250. I created a project that users can rate their favorite (and least favorite) albums and those ratings across the application are collected in the Stegato leaderboard. When I first built this project, I was using the iTunes API to search for music. As of December 2019, due to an update to iTunes API, I am currently testing other API's to use in place of the iTunes API" 
                     technologies="html" 
                     applink="http://stegato.netlify.com/" 
                     repolink="https://github.com/JesseShawCodes/stegato"
